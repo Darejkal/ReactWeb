@@ -6,7 +6,7 @@ export const Tools: React.FC<ToolsProps> = ({ }) => {
         <div className="Tools">
         <ToolsBar texts={["+","-","Edit","User"]}/>
         <ToolsBar texts={["+","-","Edit","Timetable"]}/>
-        <ToolsBar texts={["+","-","Edit","Class"]}/>
+        <ToolsBar texts={["Manage","News"]}/>
         </div>
     )
 };

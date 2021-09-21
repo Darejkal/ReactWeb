@@ -28,7 +28,7 @@
     justify-content: space-evenly;
 }
 .Tools .ToolHolder .ToolContainer button{
-    width: 30%;
+    width: 50%;
 }
 .InputForm{
     display: flex;

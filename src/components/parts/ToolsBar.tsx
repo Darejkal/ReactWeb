@@ -1,7 +1,7 @@
 import React from 'react'
 import LinkButton from './LinkButton';
 export type ToolsBarProps = {
-    texts:[string,string,string,string]
+    texts:Array<string>
 }
 export const ToolsBar: React.FC<ToolsBarProps> = ({texts }) => {
     var toolText = texts.pop();
